@@ -76,6 +76,7 @@ color: #E53338;
 {
 position: relative;
 justify-content: center;
+align-items: center;
 display: inline-block;
 width: 314px;
 height: 36px;
