@@ -116,11 +116,25 @@ forms input[type=text]:hover
 	margin-right: 10px;
 
 }
-.round
-{
-position: relative;
-float: left;
-padding-top: 25px;
+.round {
+	position: absolute;
+	margin-left: 53px;
+	margin-top: 20px;
+	
+	display: inline-block;
+	text-transform: capitalize;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+
+color: rgba(0, 0, 0, 0.81)
+  }
+  .round h2{
+	  position: relative;
+	padding-left:20px ;
+	
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -128,13 +142,6 @@ font-size: 13px;
 line-height: 15px;
 
 color: rgba(0, 0, 0, 0.81);
-
-}
-.round {
-	position: relative;
-	margin-left: 53px;
-	margin-top: 20px;
-
   }
   
   .round label {
@@ -147,6 +154,7 @@ color: rgba(0, 0, 0, 0.81);
 	position: absolute;
 	top: 0;
 	width: 16px;
+	
 	
   }
   
@@ -170,7 +178,7 @@ color: rgba(0, 0, 0, 0.81);
   }
   
   .round input[type="checkbox"]:checked + label {
-	background-color: #00C29F;
+	background-color: #2F007C;
 	border-color: #434343;
   }
   
@@ -183,7 +191,7 @@ color: rgba(0, 0, 0, 0.81);
 {   position: relative;
 	float: left;
 	margin-left: 67px;
-	margin-top: 18px;
+	margin-top: 34px;
 	width: 178px;
     height: 36px;
 	background: #1FCC44;
