@@ -38,18 +38,10 @@ body {
 
 .col-xs-10
  { 
-  margin-top:266px;
+
   background-color:lavender;
 }
-.col-xs-2 control-label
-{
-  font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 29px;
-line-height: 34px;
-color:blue;
-}
+
 .form-group h1
 { padding-top:183px ;
   font-family: Roboto;
@@ -68,7 +60,23 @@ font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 color: #434343;
-transform: translateX(-50%);
-left: 50%;
-position: absolute;
+text-align: center;
+}
+.form-inline
+{
+ position: absolute;
+ transform: translateX(-50%);
+ left: 50%;
+ margin-top:20px ;
+}
+.btn btn-primary
+{
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%; 
+}
+#input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
 }
