@@ -39,11 +39,12 @@ body {
 .col-xs-10
  { 
 
-  background-color:lavender;
+
 }
 
 .form-group h1
-{ padding-top:183px ;
+{ position: relative;
+  padding-top:183px ;
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -53,7 +54,8 @@ color: rgba(0, 0, 0, 0.81);
 text-align: center;
 }
 .form-group h2
-{ padding-top:8px ;
+{  position: relative;
+  padding-top:8px ;
   font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -64,19 +66,19 @@ text-align: center;
 }
 .form-inline
 {
- position: absolute;
- transform: translateX(-50%);
- left: 50%;
- margin-top:20px ;
+  margin-top: 22px;
 }
-.btn btn-primary
+.form-control
 {
-  position: absolute;
-  transform: translateX(-50%);
-  left: 50%; 
-}
-#input {
-  background: transparent;
+ 
+  padding-left: 33px;
+  background: #E5E5E5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   border: none;
-  border-bottom: 1px solid #000000;
+  
+}
+.input-group
+{
+padding-top:22px ;
 }
